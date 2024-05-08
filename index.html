@@ -17,24 +17,43 @@
        <meta name="apple-mobile-web-app-title" content="">
        <meta name="apple-mobile-web-app-capable" content="yes">
        <meta name="apple-mobile-web-app-status-bar-style" content="black">
-
-    </head>
-    <body>
-       <header class="primary-header">
-            <h1>
-                <a href="index.html">Choose <br> Your <br> Playlist!</a>
-            </h1>
-    </header>
-    <head>
-        <title> Example</title>
-    </head>
-    <body>
-        <button id="podcastB">Podcast</button>
-        <button id="favB">Favorite Songs</button>
-        <button id="studyB">Study Songs</button>
-        <button id="supriseB">Surpise!</button>
-    </body>
-        
         <script src="scripts.js" async defer></script>
-    </body>
+    </head>
+   
+<body onload="hide(); showPanel1();">
+<!--Panel 1-->
+<div id="panel-1" class="panel" style="display: block;">
+<h1>Podcast Lists</h1>
+<iframe style="border-radius:15px" src="https://open.spotify.com/embed/playlist/2ipGOT8cewTZ8vNa2exmCA?utm_source=generator" padding = "10" width="80%" height="600" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
+
+<!--Panel 2-->
+
+<div id="panel-2" class="panel" style="display: none;">
+<h1> Favorite Songs</h1>
+<iframe style="border-radius:15px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX9tPFwDMOaN1?utm_source=generator" padding = "10" width="80%" height="600" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
+
+<!--Panel 3-->
+
+<div id="panel-3" class="panel" style="display: none;">
+    <h1> Study songs</h1>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7K6fVGUcL6ChCsRMJP4oOC?utm_source=generator" padding = "10" width="80%" height="600" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+
+    <!--Panel 4-->
+
+<div id="panel-4" class="panel" style="display: none;">
+    <h1> Word of the day!</h1>
+    </div>
+
+<!--Navigation-->
+<nav class="navbar">
+    <button onclick="hide(); showPanel1();">Podcasts</button>
+    <button onclick="hide(); showPanel2();">Fav</button>
+    <button onclick="hide(); showPanel3();">Study</button>
+    <button onclick="hide(); showPanel4();">Word of the day</button>
+</nav>
+</body>
+
 </html>

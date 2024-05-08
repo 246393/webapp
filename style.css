@@ -1,24 +1,77 @@
-.myButton {
-    background-color: blueviolet;
-    border: none;
-    color: white;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-            border-radius: 8px;
-        }
-
-        /* Hover effect */
-        .myButton:hover {
-            background-color: #45a049;
-        }
-
-.primary-header{
-    text-align: center;
-    text-decoration: none;
-   
+*,
+*:before,
+*:after{
+    box-sizing:border-box;
 }
+html,body{
+    height:100%;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background:grey;
+}
+.panel{
+    height:100%;
+}
+#panel-1{
+    background-color: #3E567C;
+    color:#b78428;
+}
+#panel-2{
+    background-color:#60ab91;
+    color:#530D06;
+}
+#panel-3{
+    background-color:#dfe179;
+    color:#600b37;
+}
+#panel-4{
+    background:green;
+}
+button{
+    padding:10px;
+    width:20%;
+    height: 75px;
+    background-color:#1ED760;
+    color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+button:hover{
+    cursor:pointer;
+    background-color:greenyellow;
+    color:green;
+}
+
+/*
+=================================================
+TYPOGRAPHY
+=================================================
+*/
+h1{
+    margin:0;
+    padding:150px 0 50px 0;
+    font-family: 'Oswald', sans-serif;
+    font-size:54px;
+}
+p{
+  font-family: 'Roboto', sans-serif;  
+  font-size:18px;
+}
+
+/*
+=================================================
+Navigation
+=================================================
+*/
+
+nav{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    text-align:center;
+    background:#FFF;
+    border-top:#CCC;
+    padding: 40px;
+}
+
