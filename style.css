@@ -14,19 +14,24 @@ html,body{
     height:100%;
 }
 #panel-1{
-    background-color: #3E567C;
-    color:#b78428;
+    background: rgb(7,2,97);
+    background: linear-gradient(40deg, rgba(7,2,97,1) 0%, rgba(64,64,162,1) 24%, rgba(62,127,224,1) 44%, rgba(0,212,255,1) 68%, rgba(200,173,242,1) 89%);
+    color:#416eec;
 }
 #panel-2{
-    background-color:#60ab91;
+    background: rgb(12,117,30);
+background: linear-gradient(40deg, rgba(12,117,30,1) 0%, rgba(49,180,52,1) 24%, rgba(90,255,82,1) 44%, rgba(125,237,13,1) 68%, rgba(238,255,0,1) 89%);
     color:#530D06;
 }
 #panel-3{
-    background-color:#dfe179;
+    background: rgb(144,43,19);
+background: linear-gradient(346deg, rgba(144,43,19,1) 0%, rgba(232,123,66,1) 24%, rgba(255,195,59,1) 44%, rgba(255,225,150,1) 68%, rgba(255,255,255,1) 89%);
     color:#600b37;
 }
 #panel-4{
-    background:green;
+    background: rgb(33,153,106);
+background: linear-gradient(346deg, rgba(33,153,106,1) 0%, rgba(34,193,86,1) 24%, rgba(68,219,109,1) 44%, rgba(150,255,218,1) 68%, rgba(255,255,255,1) 89%);
+
 }
 button{
     padding:10px;
@@ -73,5 +78,9 @@ nav{
     background:#FFF;
     border-top:#CCC;
     padding: 40px;
+}
+
+.iframe{
+    padding: 50px;
 }
 
